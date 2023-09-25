@@ -12,8 +12,7 @@ import Details from "./pages/details/Details";
 import SearchResult from "./pages/searchResult/SearchResult";
 import Explore from "./pages/explore/Explore";
 import PageNotFound from "./pages/404/PageNotFound";
-import Header from "./components/header/header";
-
+import Header from './components/header/Header';
 function App() {
     const dispatch = useDispatch();
     const { url } = useSelector((state) => state.home);
